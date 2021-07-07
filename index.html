@@ -1,0 +1,216 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="ZET Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+</head>
+<body>
+<div id="home" class="banner">
+	<div class="container">
+		<div class="header-info">
+			<div class="header-info-left">
+			</div>
+			<div class="header-info-right">
+				<div class="header cbp-spmenu-push">
+					<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+						<h3>MENU</h3>
+							<a class="scroll" href="#home">Home</a>
+							<a class="scroll" href="#services">Services</a>
+							<a class="scroll" href="#team">Works</a>
+							<a class="scroll" href="#contact">Contact</a>
+					</nav>
+				
+					<script>
+						$("span.menu").click(function(){
+							$("ul.navigatoin").slideToggle("300" , function(){
+							});
+						});
+					</script>
+					<script type="text/javascript">
+								jQuery(document).ready(function($) {
+									$(".scroll").click(function(event){		
+										event.preventDefault();
+										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+									});
+								});
+					</script>
+					<div class="clearfix"> </div>
+						
+									<div class="main">
+										<section class="buttonset">
+											<button id="showRightPush">MENU<img src="images/menu.png" /></button>
+										</section>
+									</div>
+									
+									<script src="js/classie.js"></script>
+									<script>
+										var	menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+											showRightPush = document.getElementById( 'showRightPush' ),
+											body = document.body;
+							
+										showRightPush.onclick = function() {
+											classie.toggle( this, 'active' );
+											classie.toggle( body, 'cbp-spmenu-push-toleft' );
+											classie.toggle( menuRight, 'cbp-spmenu-open' );
+											disableOther( 'showRightPush' );
+										};
+									</script>
+				</div>
+				
+	
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+			<div class="banner-info">
+				<h1>Portfolio</h1>
+				<p>Hello! My name is Yulia and I am a <strong style = "color: rgba(214, 81, 214, 0.445);">FRONT-END</strong> developer and also a bit of a <strong style = "color: rgba(174, 109, 235, 0.795);">BACK-END</strong> developer</p>
+				
+			</div>
+			 
+	</div>
+</div>
+
+<div id="services"class="services">
+	<div class="container">
+		<div class="services-info">
+			<h2>WHAT I CAN DO</h2>
+			<p>In addition to front-end development I can do many other things<br>
+				By going to <a href = "https://github.com/JuliyaLazareva">GitHub</a> you can view all my projects that are presented in the portfolio
+			</p>
+			<div class="strip"></div>
+		</div>
+		<div class="services-grids">
+			<div class="col-md-3 services-grid text-center">
+				<div class="fully-img"></div>
+				<h3>FRONT-END</h3>
+				<p>I can create a website or make a web application using HTML5, CSS, JS, the jQuery library</p>
+			</div>
+			<div class="col-md-3 services-grid text-center">
+				<div class="easy-img"></div>
+				<h3>BACK-END</h3>
+				<p>I will create a simple and clear admin panel using this framework in Python</p>
+			</div>
+			<div class="col-md-3 services-grid text-center">
+				<div class="seo-img"></div>
+				<h3>WEB DESIGN</h3>
+				<p>I am engaged in the development of ergonomic websites and web applications</p>
+			</div>
+			<div class="col-md-3 services-grid text-center">
+				<div class="made-img"></div>
+				<h3>OPERATING SYSTEM</h3>
+				<p>I will configure any operating system</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<div id="team" class="team">
+	<div class="container">
+		<div class="team-info">
+			<h2>WORKS</h2>
+			<p>The works were performed both for study and for orders. Most of them are for orders</p>
+			<div class="border"></div>
+		</div>
+		<div class="team-grids">
+			<div class="col-md-3 team-grid text-center">
+				<div class="team-image">
+					<img src="images/filmoteka.jpg" alt=" " />
+					<div class="team-desc">
+						<h3>Personal film library</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 team-grid text-center">
+				<div class="team-image">
+					<img src="images/norway.jpg" alt=" " />
+					<div class="team-desc">
+						<h3>Norway</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 team-grid text-center">
+				<div class="team-image">
+					<img src="images/banya.jpg" alt=" "/>
+					<div class="team-desc">
+						<h3>Mobile bath rental</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 team-grid text-center">
+				<div class="team-image">
+					<img src="images/masters.jpg" alt=" " />
+					<div class="team-desc">
+						<h3>Computer repair</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 team-grid text-center">
+				<div class="team-image">
+					<img src="images/franko.jpg" alt=" " />
+					<div class="team-desc">
+						<h3>Women's underwear</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 team-grid text-center">
+				<div class="team-image">
+					<img src="images/ritual.jpg" alt=" " />
+					<div class="team-desc">
+						<h3>Special-purpose</h3>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="meet-button"><a href="https://t.me/Haythor">WRITE ME IN A TELEGRAM</a></div>
+		<div class="meet-button"><a href="https://github.com/JuliyaLazareva">GO TO GITHUB</a></div>
+	</div>
+</div>
+
+
+
+<div id="contact" class="contact">
+	
+	<div class="clearfix"></div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="footer-left">
+			<a href="#"><img src="images/19.png" alt=""/></a>
+		</div>
+		<div class="footer-right">
+				
+				<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="copyright">
+		<center><a class="copyright" style="color:#c3c3c3;" href="" target="_blank">Yulia Lazareva 2021 | All rights reserved</a></center>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
